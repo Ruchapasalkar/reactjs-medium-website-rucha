@@ -50,23 +50,6 @@ body {
 }
 
 
-.container {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10 px-6;
-}
-
-.article-card {
-  @apply bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow;
-}
-
-.article-card h2 {
-  @apply text-xl font-bold mb-2;
-}
-
-.article-card p {
-  @apply text-sm text-gray-700;
-}
-
-
 .footer {
   @apply bg-black text-white text-center py-4 mt-auto;
 }
