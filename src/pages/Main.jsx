@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Home() {
+function Main() {
   return(
     <div className="text-center p-8">
       <h1 className="text-5xl font-serif font-bold leading-tight">
