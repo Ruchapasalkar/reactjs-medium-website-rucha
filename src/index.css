@@ -1,0 +1,76 @@
+/* Import Google Fonts (if needed) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Base styles for Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-yellow-50 text-gray-900 font-sans;
+}
+
+/* Navbar styles */
+.navbar {
+  @apply bg-black text-white py-4 px-6 flex justify-between items-center;
+}
+
+.navbar h1 {
+  @apply text-2xl font-bold;
+}
+
+.navbar a {
+  @apply text-white ml-4 text-sm font-medium;
+}
+
+.navbar .button-highlight {
+  @apply bg-white text-black font-bold rounded-full px-4 py-2 text-sm;
+}
+
+/* Main content styles */
+.main-content {
+  @apply text-center mx-auto my-20 px-6;
+}
+
+.main-content h1 {
+  @apply text-6xl font-bold leading-tight text-left;
+}
+
+.main-content .highlighted-text {
+  @apply text-black font-bold;
+}
+
+.main-content p {
+  @apply text-lg text-left mt-4;
+}
+
+.main-content .button-highlight {
+  @apply bg-black text-white font-bold rounded-full px-6 py-3 mt-6;
+}
+
+/* Article styles */
+.container {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-10 px-6;
+}
+
+.article-card {
+  @apply bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow;
+}
+
+.article-card h2 {
+  @apply text-xl font-bold mb-2;
+}
+
+.article-card p {
+  @apply text-sm text-gray-700;
+}
+
+/* Footer styles */
+.footer {
+  @apply bg-black text-white text-center py-4 mt-auto;
+}
+
+.footer a {
+  @apply text-white mx-2 text-sm font-medium;
+}
