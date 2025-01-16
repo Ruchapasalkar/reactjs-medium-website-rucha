@@ -39,7 +39,7 @@ body {
 }
 
 .main-content h1 {
-  @apply text-6xl font-bold leading-tight;
+  @apply text-9xl font-bold leading-tight;
 }
 
 .main-content .highlighted-text {
