@@ -7,6 +7,7 @@ import OurStory from './pages/OurStory';
 import Membership from './pages/Membership';
 import Write from './pages/Write';
 import SignIn from './pages/SignIn';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/membership" element={<Membership/>} />
           <Route path="/write" element={<Write/>} />
           <Route path="/sign-in" element={<SignIn/>} />
+          <Route path="*" element={<NotFound/>} />
         </Routes>
       </main>
       <Footer/>
