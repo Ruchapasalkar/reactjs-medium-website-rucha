@@ -1,4 +1,4 @@
-/* Import Google Fonts (if needed) */
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /* Base styles for Tailwind CSS */
@@ -71,3 +71,25 @@ body {
 .footer a {
   @apply text-white mx-2 text-sm font-medium;
 }
+
+/* Authentication styles */
+/*.auth-container {
+  @apply flex justify-center items-center min-h-screen;
+}
+
+.auth-form {
+  @apply p-6 bg-white rounded-lg shadow-lg w-full max-w-md;
+}
+
+.auth-input {
+  @apply block w-full mb-4 p-3 border border-gray-300 rounded;
+}
+
+.auth-button {
+  @apply w-full bg-blue-700 text-white py-2 rounded hover:bg-blue-400;
+}
+
+.auth-link {
+  @apply text-center text-blue-500 mt-2 block;
+} */
+
